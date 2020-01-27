@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body {
+ 	background-color: #F2F2F2;
+}
+
+.header
+{
+	background-color: #333333;
+	padding: 0px;
+	color: #fff;
+	border: 1px solid black;
+}
+
+.title
+{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	color: #85DCFB;
+
+}
+
+.header ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 200px;
+
+	padding: 15px 0px;
+
+}
+
+.header ul li
+{
+	display: inline-block;
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	background-color: #333333;
+	color: #CCCCCC;
+	padding: 15px 45px;
+	border: 1px solid black;
+	margin-right: -9px;
+
+}
+
+.header ul li a:hover
+{
+/*	background-color: DarkSlateGray;*/
+	color: #fff;
+}
+
+.header control-align
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header control-align img-control
+{
+	float: left;
+
+}
+
+.header control-align img-control img
+{
+	margin-top: 10px;
+
+}
+
+
+.profileInfo
+{
+	text-align: center;
+
+}
+
+.profilePicture
+{
+	position: absolute;
+	top: 230px;
+	left: 150px;
+
+}
+
+.profilePicture img
+{
+	border-radius: 30%;
+	border: 5px;
+	border-color: white;
+	border-style: solid;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.userName
+{
+	position: absolute;
+	text-align: left;
+	top: 330px;
+	left: 330px;
+	padding: 10px 380px;
+	padding-right: 380px;
+	padding-left: 50px;
+	background-color: white;
+}
+
+.summary
+{
+	position: absolute;
+	text-align: left;
+	top: 380px;
+	left: 240px;
+
+}
+
+.content-table
+{
+
+	border-collapse: collapse;
+	margin: 15px 0px;
+	font-size: 1em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.content-table thead tr
+{
+	background-color: #E6883C;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+.content-table th,
+.content-table td
+{
+	padding: 12px 15px;
+}
+
+.content-table tbody tr
+{
+	border-bottom: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	background-color: white;
+}
+
+.content-table tbody tr:last-of-type
+{
+	border-bottom: 2px solid #DDDFE2;
+}
+
+.food-table
+{
+
+	border-collapse: collapse;
+	margin: 15px 0px;
+	font-size: 1em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	text-align: left;
+
+}
+
+.food-table thead tr
+{
+	background-color: #E6883C;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+
+.food-table th,
+.food-table td
+{
+	padding: 12px 15px;
+}
+
+.food-table tbody tr
+{
+	border-bottom: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	background-color: white;
+}
+
+.food-table tbody tr:last-of-type
+{
+	border-bottom: 2px solid #DDDFE2;
+}
+
+
+.topFood
+{
+	position: absolute;
+	text-align: left;
+	top: 380px;
+	left: 650px;
+
+	border-collapse: collapse;
+	margin: 15px 0px;
+	font-size: 1em;
+	min-width: 400px;
+	border-radius: 10px 5px 0 0;
+	overflow: hidden;
+
+
+
+}
+
+
+
+.topFood-table thead tr
+{
+	background-color: #E6883C;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+
+.topFood-table th,
+.topFood-table td
+{
+	padding: 12px 15px;
+}
+
+.topFood-table tbody tr
+{
+	border-bottom: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	background-color: white;
+}
+
+.topFood-table tbody tr:last-of-type
+{
+	border-bottom: 2px solid #DDDFE2;
+}
+
+
+
+
+
+
+
+.body
+{
+	padding: 25px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
