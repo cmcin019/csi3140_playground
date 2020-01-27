@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+.content-table
+{
+
+	border-collapse: collapse;
+	margin: 15px 0px;
+	font-size: 1em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.content-table thead tr
+{
+	background-color: #E6883C;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+.content-table th,
+.content-table td
+{
+	padding: 12px 15px;
+}
+
+.content-table tbody tr
+{
+	border-bottom: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	background-color: white;
+}
+
+.content-table tbody tr:last-of-type
+{
+	border-bottom: 2px solid #DDDFE2;
+}
