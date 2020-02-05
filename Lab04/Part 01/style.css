@@ -1,0 +1,42 @@
+
+.first_ex .hex { color: #27ae60; }
+.first_ex .rgb { color: rgb(255, 0, 0); }
+.first_ex .rgba { color: rgba(255, 0, 0, 0.5); }
+.first_ex .hsl { color: hsl(120, 100%, 50%);  }
+.first_ex .hsla { color: hsla(120, 100%, 50%, 0.5);  }
+
+
+.second_ex .btn { 
+  border: 3px solid #27ae60;
+  background-color: #2ecc71;
+  padding: 5px 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+.third_ex .ex3 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+.third_ex .ex3:hover {
+    width: 300px;
+}
+
+
+.fourth_ex .ex4 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    /* Rotate div */
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
